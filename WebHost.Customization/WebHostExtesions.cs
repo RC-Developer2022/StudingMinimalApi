@@ -83,6 +83,8 @@ namespace WebHost.Customization
         {
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseSwagger();
+            app.UseSwaggerUI();
         }
     }
 }

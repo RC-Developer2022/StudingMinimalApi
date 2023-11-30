@@ -7,11 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlock", "BuildingBl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A3C084B1-AC2B-4EB5-AFBB-34380C88E972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrinhoCompra", "CarrinhoCompra\CarrinhoCompra.csproj", "{00817DFB-E0D0-40CD-BF93-71CCD73AD07E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarrinhoCompra", "CarrinhoCompra\CarrinhoCompra.csproj", "{00817DFB-E0D0-40CD-BF93-71CCD73AD07E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58A8A9DC-8ACA-4990-BA9D-73CA824D4F73} = {58A8A9DC-8ACA-4990-BA9D-73CA824D4F73}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuario", "Usuario\Usuario.csproj", "{58A8A9DC-8ACA-4990-BA9D-73CA824D4F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario", "Usuario\Usuario.csproj", "{58A8A9DC-8ACA-4990-BA9D-73CA824D4F73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHost.Customization", "WebHost.Customization\WebHost.Customization.csproj", "{D1D0F6EE-756C-432C-A490-F8E83B076B73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHost.Customization", "WebHost.Customization\WebHost.Customization.csproj", "{D1D0F6EE-756C-432C-A490-F8E83B076B73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
